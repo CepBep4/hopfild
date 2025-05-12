@@ -15,4 +15,5 @@ def pres():
 def getPhotos():
     return jsonify(learn_and_test())
 
-app.run(debug=True, port=6600, host="0.0.0.0")
+if __name__ == "__main__":
+    app.run(debug=True, port=6600, host="0.0.0.0")
