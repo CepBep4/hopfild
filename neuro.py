@@ -134,7 +134,7 @@ def learn_and_test():
     
     draw_image_from_array(signal, SIZE[0], SIZE[1]).save(f"static/render/{senior}_signal.jpg")
     draw_image_from_array(res, SIZE[0], SIZE[1]).save(f"static/render/{senior}_res.jpg")
-    
+    #Привет
     string = ''.join(["1" if x == 1 else "0" for x in list(res)])
     stringNew = ""
     for i in range(0, SIZE[0]*SIZE[1], 1):
