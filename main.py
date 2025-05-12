@@ -15,5 +15,12 @@ def pres():
 def getPhotos():
     return jsonify(learn_and_test())
 
+@app.after_request
+def allow_everyone(response):
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    response.headers['Access-Control-Allow-Headers'] = '*'
+    response.headers['Access-Control-Allow-Methods'] = '*'
+    return response
+
 if __name__ == "__main__":
     app.run(debug=True, port=6600, host="0.0.0.0")
