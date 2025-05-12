@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "main";
+    src: url("/static/SeldomScene-B6lG.ttf") format("truetype");
+    font-weight: bold;
+}
+
+h1{
+    font-family: "Yandex Sans Text";
+}
+.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.fb{
+    font-size: 5vw;
+    padding: 30px;
+}
+
+.baseimg{
+    width: 30vw;
+    height: 30vw;
+    flex-shrink: 0;
+}
+
+
+.c1{
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-title{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.center-title{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.upload{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.next-button{
+    font-family: "Yandex Sans Text";
+    font-size: 2vw;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.vector-container{
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    gap: 20px;
+}
+
+.vector{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+
+.vector-image{
+    width: 10%;
+}
+
+.vector-text{
+    font-size: 1.1vw;
+    font-family: "Yandex Sans Text";
+}
+
+.test-img{
+    width: 40%;
+}
+
+.img-pres{
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Презентация по физике</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='font.css') }}">
+    <script type="text/javascript" src="/static/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container c1">
+            <div class="upload">
+                <h1 class="fb main-title">Загрузите свой образ</h1>
+                <div class="next-button">Готово</div>
+            </div>
+            <img class="baseimg plane" src="/static/qr.png" alt="">
+        </div>
+        <div class="container c2">
+            <div class="upload">
+                <h1 class="fb main-title">Векторизация изображений</h1>
+                <div id="vc1" class="vector-container">
+                    <!-- <div class="vector">
+                        <img class="vector-image" src="/static/testD.jpg" alt="">
+                        <div class="vector-text"><span>1001011011010101001000101010010101001011100101001001100100100100100001001000101000101011110100101001</span></div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="container c3">
+            <div class="upload">
+                <h1 class="fb main-title">Обучение и тесты</h1>
+                <div id="vc2" class="vector-container">
+                    <!-- <div class="vector">
+                        <img class="test-img" src="/static/testD.jpg" alt="">
+                        <img class="test-img" src="/static/testD.jpg" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
