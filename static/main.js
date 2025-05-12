@@ -1,10 +1,10 @@
-setInterval(() => {
-    fetch("https://cepbep4-hopfild-cfed.twc1.net/getPhotos", {
-        method: "GET"
-    }).then(response => response.text()).then(answer => {
-        load(JSON.parse(answer))
-    })
-}, 1000)
+// setInterval(() => {
+//     fetch("https://cepbep4-hopfild-cfed.twc1.net/getPhotos", {
+//         method: "GET"
+//     }).then(response => response.text()).then(answer => {
+//         load(JSON.parse(answer))
+//     })
+// }, 1000)
 
 function update(){
     fetch("https://cepbep4-hopfild-cfed.twc1.net/getPhotos", {
