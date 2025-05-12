@@ -149,7 +149,7 @@ def learn_and_test():
       "str":stringNew
     })
     
-    return data_response
+  return data_response
     
 if __name__ == "__main__":
   print(learn_and_test())
